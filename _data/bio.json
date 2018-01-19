@@ -6,7 +6,7 @@
     "email": "jkulka@hawaii.edu",
     "phone": "808-333-4444",
     "website": "https://jkulka.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Fall, 2019.",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I am projected to graduate in Fall, 2019.",
     "location": {
       "address": "",
       "postalCode": "96789",
@@ -39,20 +39,17 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430",
-        "Add stuff"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Software Engineering",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Indie Game Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Statistics",
       "keywords": [
       ]
     }
