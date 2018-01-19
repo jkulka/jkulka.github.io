@@ -91,10 +91,10 @@
       ]
     }
   ],
-  "References": [
+  "references": [
     {
-    "name": "Available upon request",
-    "reference": ""
+      "name": "Available upon request",
+      "reference": ""
     }
   ]
 }
