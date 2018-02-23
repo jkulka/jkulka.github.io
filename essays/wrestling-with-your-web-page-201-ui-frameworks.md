@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: Wrestling With Your Web Page 201: UI Frameworks
+title: Wrestling With Your Web Page 201 - UI Frameworks
 # All dates must be YYYY-MM-DD format!
 date: 2018-02-22
 labels:
