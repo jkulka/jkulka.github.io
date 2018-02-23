@@ -1,0 +1,22 @@
+---
+layout: essay
+type: essay
+published: true
+title: Wrestling With Your Web Page 201: UI Frameworks
+# All dates must be YYYY-MM-DD format!
+date: 2018-02-22
+labels:
+  - HTML & CSS
+  - Web Development
+  - UI Frameworks
+---
+
+Let's say that I want to build a website from scratch, what do I need? After doing a little bit of research, I decide that I want to build it using HTML and CSS. With that, I go off to learn these how to use them. Once I'm done with my homepage, I realize that it looks okay. Just okay. The "I had just finished the tutorials" kind of okay. Unlike my new homepage, a lot of websites that I visit have a almost uniform trendy look to them, and also don't look like they weren't made in an afternoon with little to no experience. I know how I want my website to look, so why don't I have something do the grunt work for me? Something like a UI framework. I have gotten more used to HTML and CSS, so using a framework shouldn't be too hard, right?
+
+After some looking about, Semantic UI is the UI framework of my choice. The documentation seems good and from what I've seen, it looks pretty good visually. It definitely fits the nice trendy modern look of many websites. I can apply UI components that are commonly seen in different websites, like a menu, a dropdown, buttons, etc.. All I need to do to get what I want is to specify it as a class in div element. "ui fixed menu" and I have a menu that sticks to the top of the page no matter where I scroll. All I needed was three words. These components have been implemented many times and are common place, so why not simplify the implementation process? 
+
+While a UI framework like semantic get the implementation nonsense out of the way of making a website, there's something that needs to be said about learning how to use a UI framework. It's one thing to follow the documentation to get a menu or a dropdown button, but when things don't go the way one expects when implementing the components through a framework, the documentation doesn't teach you how to wrestle with the framework to get what you want. With HTML, there will be experimenting on how each element interacts with each other, and when learning a framework, it seems necessary to go through this process again, along with a lot of documentation studying. With semantic UI, there seems to be a lot of discovering of what modifier classes work with which element or collection. If you want to put elements to the right of a container, you right-align it in the class. If you want to put menu items on it's right side, you could make a right-aligned container, right? No, you make a right menu element inside the menu element. 
+
+Customizing is another thing that's not obvious in Semantic. Let's say one wants to change the font color for his menu items, they would think, "maybe I can do that by giving it a class in the style sheet that changes the font color", except after putting that in the element's class, the text remains black. Afterwards it's, "weird, but since some semantic elements have a color prefix, maybe a 'blue text' element will change things." The text remains black. You have to be very specific for which container you're using and for which element in the container you want changed, and still it seems like results vary. However, after learning how to wrestle with the framework, it does feel like you have more control over how you want the page to be. It's frustrating to figure out at first, but after overcoming the initial learning curve, it does feel like I do know what to expect out of Semantic UI, and I'm assuming that's how it is for other UI frameworks. At the end of the day, I can't really complain, after putting in the work, I do get a good looking and trendy web page for minimal effort, as minimal as minimal can get for web pages. 
+
+It may take a lot of the work out of implementing features such as a menu or a dropdown, but at the same time, it takes customizing or styling our page out of our control, or at least it makes us work really hard for it. It's still nice to have, especially with making mock-ups of what the final look of a webpage could be, though it does take extra effort to figure out what works and what doesn't with the control that it gives you, which is control that you have to wrestle from the framework. 
