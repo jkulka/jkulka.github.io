@@ -1,6 +1,7 @@
 ---
 layout: essay
 type: essay
+published: true
 title: "Final Project Idea: Carpool Buddies"
 date: 2017-10-19
 labels:
