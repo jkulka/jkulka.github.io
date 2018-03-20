@@ -1,16 +1,14 @@
 ---
 layout: essay
 type: essay
-published: true
-title: Final Project Idea
+title: "Final Project Idea: Carpool Buddies"
 date: 2017-10-19
 labels:
   - Software Engineering
   - Meteor
 ---
 
-#Carpool Buddies
-##by Jason Kulka and Brendan McCabe
+By Jason Kulka and Brendan McCabe
 
 Some students have trouble going to school, and sometimes they just don't feel like taking the bus. With the carpool pass, students that are driving to school can get a special parking permit if they share a ride with someone. Parking is also a problem, the main parking structure is usually filled during the morning hours. The carpooling permit alleviates this issue by at least halving the amount of parking needed per person driving, but sometimes, plans fall through, and the person a carpool permit owning student doesn't have someone to carpool with, making parking at the parking structure more difficult. Hopefully this project idea can help match people with carpool permits with people that need rides to school. It's like uber, but for UH manoa students. Both drivers and the people getting picked up have to include where they are driving from, or where they would like to get picked up from. The project aims to pair up people who live the closest to each other. 
 
