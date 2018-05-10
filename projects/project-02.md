@@ -9,7 +9,7 @@ date: 2018-05-09
 labels:
   - Flask
   - Python
-  - Database-backed web-app
+  - DMBS
 summary: My submission for my ICS-321 final project: A DBMS backed web-app that solves a real world issue.
 ---
 
