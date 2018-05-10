@@ -10,7 +10,7 @@ labels:
   - Flask
   - Python
   - Database-backed web-app
-summary: My submission for my ICS-321 final project: A DBMS backed web-app that solves a "real world issue."
+summary: My submission for my ICS-321 final project: A DBMS backed web-app that solves a real world issue.
 ---
 
 <div class="ui small rounded images">
