@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/micromouse.jpg
 title: Cards and Occasions
-permalink: projects/cando
+permalink: projects/cards-and-occasions
 # All dates must be YYYY-MM-DD format!
 date: 2018-05-09
 labels:
