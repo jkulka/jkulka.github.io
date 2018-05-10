@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/rectangle-buster01.png
 title: Rectangle Buster
 permalink: projects/rectangle-buster
 # All dates must be YYYY-MM-DD format!

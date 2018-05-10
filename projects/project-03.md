@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/washerwatcher-washer.png
 title: Washer Watcher
 permalink: projects/washer-watcher
 # All dates must be YYYY-MM-DD format!

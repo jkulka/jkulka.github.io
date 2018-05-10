@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/cando-landing.png
 title: Cards and Occasions
 permalink: projects/cards-and-occasions
 # All dates must be YYYY-MM-DD format!
