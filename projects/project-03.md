@@ -19,24 +19,12 @@ summary: My team worked together to develop a web-app for out final project in I
   <img class="ui image" src="../images/washerwatcher-modal.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Washer Watcher is a web-application my group and I developed for our final project in our Software Engineering class, ICS 314. This is the first group project I have ever worked in in regards to programming projects, as well as my first "real" web-application I have worked on, so it was a very exciting and educational project for me. The final project was about solving problems in our university with a web-application. Washer Watcher aims to solve the issue for people living in shared spaces, where they bring their laundry down to the laundry room, only to find that all of the washing machines have been occupied. It attacks this issue by showing users which machines are in use before they make their trip down there, preventing any time wasted waiting for a washing machine to be done. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Our group used Meteor, React with Semantic UI, and JavaScript to implement our solution. Washer Watcher was made with the University of Hawaii Manoa dorms in mind, so when a user registers, they have to pick whichever dorm they reside in. After they do that, the "Check Availability" page will show all the washing machines tied to that dorm and their availability status. Each washing machine card has a name, the last update message as well as when it was posted, and the current availability of the washing machine, which could be "Available", "In Use", or "Out of Order".
 
-Here is some code that illustrates how we read values from the line sensors:
+Being my first group project, I learned a lot about working in a group. We tackled to project using an Issue Driven Project Management approach, and I feel it really made working on the project issue-less and fluid. As long as we had a milestone set up with clear goals in mind, there was always something to do to further progress. It was always clear as to what should be done, and there were very few, if there were any, conflicts in getting work done. My group was just pleasant to work with. 
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+For more information on the project, it has a project page that you can check out at the [Github Project Page](https://washerwatcher.github.io/).
 
 

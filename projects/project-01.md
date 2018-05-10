@@ -18,24 +18,10 @@ summary: A little side project I had myself do during a semester to get back int
   <img class="ui image" src="../images/rectangle-buster02.png ">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Rectangle Buster is a little side project I worked on at the start of my Spring semester of 2018. I hadn't done any programming in the past year leading to that point, so I thought working on a video game would be a good warm up to a semester that would be filled with projects. The game is simple. The player controls a little spacecraft and the goal of the game is to destroy as many rectangles, which are stand-ins for asteroids, before they eventually blow up by colliding into them. When the player loses, they are treated to a high-score screen, and a prompt to start the game all over again. The controls are simple, up arrow to accelerate the ship forwards to whichever direction it's pointing towards, down arrow accelerates the ship backwards, left and right arrows turn the ship left or right respectively, and the spacebar fires lasers towards the direction the ship is facing. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+The game was made using the LOVE 2D + Lua framework, which is a fine and dandy framework for making 2D games. There are a good amount of learning material for the framework, and Lua, though it has it's own little weird quirks, was an easy language to get into, so I found myself making steady progress as weeks passed. While going through the material, I wanted to make sure that I really understood what was being taught by implementing those ideas into Rectangle Buster. While the game itself is an Asteroids clone, I wanted to immerse myself into game design and problem solving by making the game with the idea of Asteroids in mind without copying or checking available solutions. I wanted to make sure that I could come up with an implementation of Asteroids on my own, and the experience felt worthwhile and fun. 
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+While working on the project, I felt like I learned a lot on project management, how to devote time and resources efficiently on a solo level, how to structure files, and game design. While implementing game design and game structure ideas I had learned, the game went from being bare-bones and simple, to something more fleshed out and complete. Okay, it's not finished or really polished, nor is it entirely original, it's a clone after all, but it's a marker of the progress I have made while learning more about game development or just solo-project management in general. 
 
 

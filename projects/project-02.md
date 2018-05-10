@@ -3,14 +3,13 @@ layout: project
 type: project
 image: images/cando-landing.png
 title: Cards and Occasions
-permalink: projects/cards-and-occasions
 # All dates must be YYYY-MM-DD format!
 date: 2018-05-09
 labels:
   - Flask
   - Python
   - DMBS
-summary: My submission for my ICS-321 final project: A DBMS backed web-app that solves a real world issue.
+summary: My submission for my ICS-321 final project - A DBMS backed web-app that solves a real world issue.
 ---
 
 <div class="ui medium rounded images">
@@ -20,24 +19,10 @@ summary: My submission for my ICS-321 final project: A DBMS backed web-app that 
   <img class="ui image" src="../images/cando-bind.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This is my project submission for my Database Management class, Cards and Occasions. At the time of conceiving the project idea, I was working a job in a greeting cards store. We would get customers who would buy a good chunk of cards in a single transaction and say, "That's all the card shopping I'll have to do all year," and I would wonder, how would they keep track of all of those cards? Sometimes when buying a card, they would not have an express purpose for it, just that when the time comes, they would use it. When buying multiple cards, they start to pile up, and over time, I assume people will forget about the cards that they have stashed away that they could use for an upcoming occasion, like Mother's Day, or their best friend's wedding. Cards and Occasions is something I thought up to combat this specific issue. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+Cards and Occasions works like this, when a person buys any number of cards, they will be added to their accounts card database which they can check at any point. Each card will have a description and image of it, as well as the cards type, to help customers know what card they have and what it looks like without having to go through all their physical cards to find it just to look at it. Users will also have a occasions page that has a bunch of occasions the host thinks is important, like Mother's Day, as well as user-added occasions, such as a best friend's wedding. When an occasion draws near, the user will be notified, and he or she can pick from their own pool of cards whichever card they feel is appropriate for the event. This makes it easier for people to go through their physical collection, as they pick the card they want to use beforehand, rather than going through the physical collection first.
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+My implementation uses Flask with Python, which were both nice to use, and an Oracle DBMS. At the current state, it's pretty barebones, but it does what I set it out to do. It adds cards and occasions to a database, and it can bind two card and occasion tuples together using a relationship table. My main concern was to get a presentable product out in time for the project presentation. The add functions require the users to add all the information in themselves, which might be too much, but getting cards to bind to occasions was my primary concern. In the future, I could make it easier to add cards for users, as my goal was to have it done automatically after a transaction for purchasing the cards had been complete. Each user could also have a pre-made list of important occasions that they might be interested in, as well as a calendar view to make viewing and adding occasions easier. Removing cards and occasions also isn't a function, yet. 
 
 
