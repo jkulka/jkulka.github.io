@@ -13,7 +13,7 @@ labels:
 summary: My team worked together to develop a web-app for out final project in ICS-314.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/washerwatcher-landing.png">
   <img class="ui image" src="../images/washerwatcher-washer.png">
   <img class="ui image" src="../images/washerwatcher-modal.png">

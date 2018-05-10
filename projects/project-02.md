@@ -13,7 +13,7 @@ labels:
 summary: My submission for my ICS-321 final project: A DBMS backed web-app that solves a real world issue.
 ---
 
-<div class="ui small rounded images">
+<div class="ui medium rounded images">
   <img class="ui image" src="../images/cando-landing.png">
   <img class="ui image" src="../images/cando-cards.png">
   <img class="ui image" src="../images/cando-occasions.png">
